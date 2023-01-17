@@ -2,6 +2,15 @@ body {
   width: max-content;
   margin: 0;
   font-size: 1rem;
+  user-select: none;
+}
+
+button {
+  width: 100%;
+}
+
+input[type="color"] {
+  width: 100%;
 }
 
 .popup-title {
@@ -13,10 +22,6 @@ body {
 }
 
 .popup-content {
-  font-family: monospace;
-  padding: 5px;
-}
-.button-remind {
   font-family: monospace;
   padding: 5px;
 }
