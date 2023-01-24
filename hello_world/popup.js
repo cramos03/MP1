@@ -6,7 +6,7 @@ Startbutton.addEventListener("click", myFunc);
 function myFunc() {
     timer = setInterval(() => {
         alert("It's time to drink water");
-    }, userTime.value * 6000);
+    }, userTime.value * 60000);
 }
 
 Stopbutton.addEventListener("click", secFunc);

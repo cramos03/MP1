@@ -8,6 +8,6 @@
     "version": "1.0",
     "action": {
         "default_popup": "popup.html",
-        "default_icon": "amogus.png"
+        "default_icon": "mywater.png"
     }
 }
